@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Matrix">
+      <UniqueIdentifier>{fbb61def-e6ab-41cc-8f82-4f95f123b523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Layer">
+      <UniqueIdentifier>{968f9c0e-2e12-4c11-9405-58dc131fed5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{551e3a6f-c381-4560-a804-709205980b4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="matixOp.cpp">
+      <Filter>소스 파일\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="fcLayer.cpp">
+      <Filter>소스 파일\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="layer.cpp">
+      <Filter>소스 파일\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="softmaxLayer.cpp">
+      <Filter>소스 파일\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="activationLayer.cpp">
+      <Filter>소스 파일\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="biasLayer.cpp">
+      <Filter>소스 파일\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="dataProvider.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="summary.cpp">
+      <Filter>소스 파일\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="matrixOp.h">
+      <Filter>소스 파일\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>소스 파일\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="fcLayer.h">
+      <Filter>소스 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>소스 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="softmaxLayer.h">
+      <Filter>소스 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="activationLayer.h">
+      <Filter>소스 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="biasLayer.h">
+      <Filter>소스 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="dataProvider.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="srcMeasure.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="summary.h">
+      <Filter>소스 파일\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="two_moon_dataset.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="matrix.cu">
+      <Filter>소스 파일\Matrix</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
